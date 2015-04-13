@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.nyit.grella.moneybuddy" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_moneybuddy"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Wishlist"
+            android:label="Wish list" >
+        </activity>
+
+        <activity
+            android:name=".GeneralBudgeting"
+            android:label="@string/title_activity_general_budgeting" >
+        </activity>
+
+        <activity
+            android:name=".GenBudCalculate"
+            android:label="@string/title_activity_gen_bud_calculate" >
+        </activity>
+
+        <activity
+            android:name=".SavedSpent"
+            android:label="SavedSpent" >
+        </activity>
+
+        <activity
+            android:name=".SavingsHistory"
+            android:label="SavingsHistory" >
+        </activity>
+
+        <activity
+            android:name=".CalendarBuddy"
+            android:label="Calendar" >
+        </activity>
+
+        <activity
+            android:name=".DailyExpenses"
+            android:label="DailyExpenses" >
+        </activity>
+
+    </application>
+
+</manifest>
