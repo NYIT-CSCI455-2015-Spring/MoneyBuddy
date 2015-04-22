@@ -123,6 +123,7 @@ public class Wishlist extends ListActivity {
                 }
             }
             checkedItemPositions.clear();
+            SavePreferences();
             adapter.notifyDataSetChanged();
         }
     };

@@ -126,6 +126,7 @@ public class DailyExpenses extends ListActivity {
                 }
             }
             checkedItemPositions.clear();
+            SavePreferences();
             adapter.notifyDataSetChanged();
         }
     };
