@@ -97,7 +97,7 @@ public class Wishlist extends ListActivity {
         public void onClick(View v) {
             // Take what was typed into the EditTexts
             // and use in the TextViews
-            itemTextView.setText("Item");
+            itemTextView.setText("Items");
 
             String row = itemEditText.getText().toString() + "         $" + costEditText.getText().toString();
 

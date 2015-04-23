@@ -4,10 +4,13 @@ package edu.nyit.grella.moneybuddy;
  * Created by grella on 3/9/15.
  */
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
@@ -31,6 +34,11 @@ public class SavedSpent extends ActionBarActivity {
                 });
 
         graph.addSeries(series);
+    }
+    public void HomeButton (View v) {
+        //Go to HomeScreen
+        Button Home = (Button) v;
+        startActivity(new Intent(getApplicationContext(), HomeScreen.class));
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
