@@ -4,11 +4,8 @@ package edu.nyit.grella.moneybuddy;
  * Created by grella on 3/9/15.
  */
 
-<<<<<<< HEAD
-import android.graphics.Color;
-=======
 import android.content.Intent;
->>>>>>> 2a7193312c4fd55a0b231528e0e6a549a9658c6f
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
@@ -86,7 +83,7 @@ public class SavedSpent extends ActionBarActivity {
         series.setThickness(5);
         graph.addSeries(series);
     }
-<<<<<<< HEAD
+
 
     private ArrayList<Integer> getIntegerArray(ArrayList<String> stringArray) {
         ArrayList<Integer> result = new ArrayList<Integer>();
@@ -119,13 +116,13 @@ public class SavedSpent extends ActionBarActivity {
     }
     */
 
-=======
+
     public void HomeButton (View v) {
         //Go to HomeScreen
         Button Home = (Button) v;
         startActivity(new Intent(getApplicationContext(), HomeScreen.class));
     }
->>>>>>> 2a7193312c4fd55a0b231528e0e6a549a9658c6f
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
