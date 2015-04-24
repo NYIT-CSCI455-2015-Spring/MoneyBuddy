@@ -40,6 +40,18 @@
         android:layout_marginLeft="20dp"
         android:text="@string/add_to_list"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="View Graph"
+        android:id="@+id/view_graph"
+        android:clickable="true"
+        android:onClick="GraphButton"
+        android:layout_alignTop="@+id/add_button"
+        android:layout_alignRight="@android:id/list"
+        android:layout_alignEnd="@android:id/list" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
