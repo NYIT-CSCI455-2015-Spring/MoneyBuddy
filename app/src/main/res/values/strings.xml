@@ -9,9 +9,8 @@
     <string name="cost_hint">Add the Cost</string>
     <string name="title_activity_general_budgeting">GeneralBudgeting</string>
     <string name="title_activity_gen_bud_calculate">GenBudCalculate</string>
-    <string name="customize">Customize</string>
+    <string name="customize">Delete Event</string>
     <string name="show_dialog">Show Dialog</string>
-    <string name="undo">Undo</string>
 
     <string name="hello_world">Hello world!</string>
 </resources>
