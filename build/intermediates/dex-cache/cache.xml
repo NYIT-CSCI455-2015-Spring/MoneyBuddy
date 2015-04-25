@@ -2,53 +2,53 @@
 <items version="2" >
 
     <item
-        jar="C:\MoneyBuddy\NewMoneyBuddy\NewMoneyBuddy\app\build\intermediates\exploded-aar\com.jjoe64\graphview\4.0.0\classes.jar"
+        jar="/Users/grella/Desktop/prog/MoneyBuddy/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="ae24ad61a573cd1faf8261f5ec6d8f0cb58ddaad">
-        <dex dex="C:\MoneyBuddy\NewMoneyBuddy\NewMoneyBuddy\app\build\intermediates\pre-dexed\debug\classes-1b7697b1e075bce63a895cee3e274c114247a429.jar" />
+        <dex dex="/Users/grella/Desktop/prog/MoneyBuddy/app/build/intermediates/pre-dexed/debug/classes-cdb6d77afae2c4fb2dcb1e2526f1eecf646f88bc.jar" />
     </item>
     <item
-        jar="C:\MoneyBuddy\NewMoneyBuddy\NewMoneyBuddy\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\MoneyBuddy\NewMoneyBuddy\NewMoneyBuddy\app\build\intermediates\pre-dexed\debug\classes-11bd406c7ab7c482c331269d26a5468060ac7555.jar" />
-    </item>
-    <item
-        jar="C:\MoneyBuddy\NewMoneyBuddy\NewMoneyBuddy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jar="/Users/grella/Desktop/prog/MoneyBuddy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\MoneyBuddy\NewMoneyBuddy\NewMoneyBuddy\app\build\intermediates\pre-dexed\debug\classes-709d1fb383fef639675686c054a3fd9435ba4207.jar" />
+        <dex dex="/Users/grella/Desktop/prog/MoneyBuddy/app/build/intermediates/pre-dexed/debug/classes-2902cb0d936157fc6fa6eeb38f79f10b71e0c1a5.jar" />
     </item>
     <item
-        jar="C:\Users\Anthony Bertolino\.gradle\caches\modules-2\files-2.1\com.darwinsys\hirondelle-date4j\1.5.1\7b52de513f87ae4d9ff5d17518def0a1e9bc3df0\hirondelle-date4j-1.5.1.jar"
+        jar="/Users/grella/Desktop/prog/MoneyBuddy/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="7b52de513f87ae4d9ff5d17518def0a1e9bc3df0">
-        <dex dex="C:\MoneyBuddy\NewMoneyBuddy\NewMoneyBuddy\app\build\intermediates\pre-dexed\debug\hirondelle-date4j-1.5.1-17302be3a878434c1d8d42dbf6b90e9d52bed27e.jar" />
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/grella/Desktop/prog/MoneyBuddy/app/build/intermediates/pre-dexed/debug/classes-2d78d50fc49da75d396818150761841dfdf1f618.jar" />
     </item>
     <item
-        jar="C:\MoneyBuddy\NewMoneyBuddy\NewMoneyBuddy\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\MoneyBuddy\NewMoneyBuddy\NewMoneyBuddy\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d76c19a5ae81a996ff4732be00e6c1711c3f9304.jar" />
-    </item>
-    <item
-        jar="C:\MoneyBuddy\NewMoneyBuddy\NewMoneyBuddy\app\build\intermediates\exploded-aar\com.roomorama\caldroid\1.1.8\classes.jar"
+        jar="/Users/grella/Desktop/prog/MoneyBuddy/app/build/intermediates/exploded-aar/com.roomorama/caldroid/1.1.8/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="1081458e03a963a5fcb583e6dfaed7ca2c0a12d6">
-        <dex dex="C:\MoneyBuddy\NewMoneyBuddy\NewMoneyBuddy\app\build\intermediates\pre-dexed\debug\classes-5510fbe12cfb26226354b1f7bd929902a6033db1.jar" />
+        <dex dex="/Users/grella/Desktop/prog/MoneyBuddy/app/build/intermediates/pre-dexed/debug/classes-257f8062443535c881275bb3fa0229406d77b333.jar" />
     </item>
     <item
-        jar="C:\Users\Anthony Bertolino\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="/Users/grella/Desktop/prog/MoneyBuddy/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/grella/Desktop/prog/MoneyBuddy/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-b0775162f91e170f25b61eeae2c527bc015e4d9c.jar" />
+    </item>
+    <item
+        jar="/Users/grella/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\MoneyBuddy\NewMoneyBuddy\NewMoneyBuddy\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-64184ae444e7ea98f576ad5b12b6345832964919.jar" />
+        <dex dex="/Users/grella/Desktop/prog/MoneyBuddy/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-0e5399ecbfe346af5421a1c51df273d3499721d1.jar" />
+    </item>
+    <item
+        jar="/Users/grella/.gradle/caches/modules-2/files-2.1/com.darwinsys/hirondelle-date4j/1.5.1/7b52de513f87ae4d9ff5d17518def0a1e9bc3df0/hirondelle-date4j-1.5.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7b52de513f87ae4d9ff5d17518def0a1e9bc3df0">
+        <dex dex="/Users/grella/Desktop/prog/MoneyBuddy/app/build/intermediates/pre-dexed/debug/hirondelle-date4j-1.5.1-8ecf7012899ff7f9709269786327508d699a619d.jar" />
     </item>
 
 </items>

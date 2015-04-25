@@ -12,7 +12,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Daily Expenses"
         android:id="@+id/daily_expenses_header"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_green_dark" />
 
     <EditText
         android:id="@+id/item_edittext"

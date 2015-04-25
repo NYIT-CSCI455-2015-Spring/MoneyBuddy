@@ -80,7 +80,7 @@ public class DailyExpenses extends ListActivity {
 
     public void GraphButton (View v) {
         Button ViewGraph = (Button) v;
-        startActivity(new Intent(getApplicationContext(), SavedSpent.class));
+        startActivity(new Intent(getApplicationContext(), DailyGraph.class));
     }
 
     @Override

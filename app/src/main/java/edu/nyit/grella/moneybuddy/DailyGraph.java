@@ -21,7 +21,7 @@ import com.jjoe64.graphview.series.LineGraphSeries;
 
 import java.util.ArrayList;
 
-public class SavedSpent extends ActionBarActivity {
+public class DailyGraph extends ActionBarActivity {
 
     public static ArrayList yvalue;
     public static ArrayList<Integer> yvalues;
@@ -30,7 +30,7 @@ public class SavedSpent extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_savedspent);
+        setContentView(R.layout.activity_dailygraph);
         GraphView graph = (GraphView) findViewById(R.id.graph);
 
         yvalue = DailyExpenses.costArray;
@@ -47,11 +47,11 @@ public class SavedSpent extends ActionBarActivity {
 
 
         // getting the month
-        String date = DailyExpenses.date;
-        String[] split = date.split("/");
-        String monthstr = split[0];
-        int month = Integer.parseInt(monthstr);
-        System.out.println(month);
+//        String date = DailyExpenses.date;
+//        String[] split = date.split("/");
+//        String monthstr = split[0];
+//        int month = Integer.parseInt(monthstr);
+//        System.out.println(month);
 
         // DataPoint[] data = new DataPoint[5];    // DailyExpenses.arrayList
 
@@ -60,23 +60,32 @@ public class SavedSpent extends ActionBarActivity {
 
         // use static labels for horizontal label to show months
         final StaticLabelsFormatter staticLabelsFormatter = new StaticLabelsFormatter(graph);
-        staticLabelsFormatter.setHorizontalLabels(new String[] {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"});
-        //staticLabelsFormatter.setVerticalLabels(new String[]{"$0", "$250", "$500", "$750", "$1000", "$1250", "$1500"});
+        staticLabelsFormatter.setHorizontalLabels(new String[] {"1st", "2nd", "3rd", "4th", "5th"});
+        staticLabelsFormatter.setVerticalLabels(new String[]{"$3", "$20", "$37", "$60", "$100",});
         graph.getGridLabelRenderer().setLabelFormatter(staticLabelsFormatter);
 
         // LineGraphSeries<DataPoint> series = new LineGraphSeries<DataPoint>(data);
 
+//        LineGraphSeries<DataPoint> series = new LineGraphSeries<DataPoint>(new DataPoint[]
+//                {
+//                        new DataPoint(0, yvalues.get(0)),
+//                        new DataPoint(1, yvalues.get(1)),
+//                        new DataPoint(2, yvalues.get(2)),
+//                        new DataPoint(3, yvalues.get(3)),
+//                        new DataPoint(4, yvalues.get(4))
+//                });
         LineGraphSeries<DataPoint> series = new LineGraphSeries<DataPoint>(new DataPoint[]
                 {
-                        new DataPoint(0, yvalues.get(0)),
-                        new DataPoint(1, yvalues.get(1)),
-                        new DataPoint(2, yvalues.get(2)),
-                        new DataPoint(3, yvalues.get(3)),
-                        new DataPoint(4, yvalues.get(4))
+                        new DataPoint(0, 3),
+                        new DataPoint(1, 7),
+                        new DataPoint(2, 20),
+                        new DataPoint(3, 35),
+                        new DataPoint(4, 60)
                 });
 
 
-        series.setTitle("Spending per Month");
+
+        series.setTitle("Daily Spending");
         series.setColor(Color.GREEN);
         series.setDrawDataPoints(true);
         series.setDataPointsRadius(5);
@@ -126,7 +135,7 @@ public class SavedSpent extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_savedspent, menu);
+        getMenuInflater().inflate(R.menu.menu_dailygraph, menu);
         return true;
     }
 

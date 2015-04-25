@@ -29,9 +29,8 @@ public class HomeScreen extends ActionBarActivity {
     }
 
     public void SavedSpentButton (View v) {
-        //Go to General Budgeting page
         Button SavedSpentbtn = (Button) v;
-        startActivity(new Intent(getApplicationContext(), SavedSpent.class));
+        startActivity(new Intent(getApplicationContext(), DailyGraph.class));
     }
 
 

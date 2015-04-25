@@ -42,8 +42,8 @@
         </activity>
 
         <activity
-            android:name=".SavedSpent"
-            android:label="SavedSpent"
+            android:name=".DailyGraph"
+            android:label="Daily Graph"
             android:screenOrientation="landscape"
             android:configChanges="keyboardHidden|orientation|screenSize">
         </activity>
